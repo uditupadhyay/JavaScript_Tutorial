@@ -1,7 +1,14 @@
-console.log('11'-1);
-console.log("hello");
-console.log("hi");
 console.log(console.log);
 typeof(console.log(console.log));
 console.log(typeof(10-"udit")=="number");
-console.log("hyy");
+
+let a = {"english": 90, "maths": 767};
+console.log(a.toString());
+console.log(a.valueOf());
+
+let x = [1,2,3];
+console.log(x.toString());
+console.log(x.valueOf());
+
+
+
