@@ -10,5 +10,9 @@ let x = [1,2,3];
 console.log(x.toString());
 console.log(x.valueOf());
 
+let y=[undefined,null,1];
+console.log(y.toString());
+console.log(y.valueOf());
+
 
 
