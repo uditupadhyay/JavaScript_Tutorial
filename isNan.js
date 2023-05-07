@@ -14,3 +14,10 @@ let x = ""
 console.log(x);
 console.log((typeof(x) == 'number' && isNaN(x)) ? "NaN value" : "Not NaN value");
 
+
+// another approach
+
+console.log(Number.isNaN(NaN));
+console.log(Number.isNaN("abc"));
+// This function doesn't do coercion
+
