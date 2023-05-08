@@ -1,7 +1,7 @@
 var teacher = "Sanket";
 function fun() {
     var teacher = "Pulkit";
-    teachingAssistant = "vibhav";
+    teachingAssistant = "vibhav"; // these are known as auto globals
     console.log(teacher);
     console.log(teachingAssistant);
 }
